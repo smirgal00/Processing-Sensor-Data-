@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="PT2020_30225_Adam_George_Assignment_5" target="1.5" />
+      <module name="PT2020_30225_Adam_George_Assignment_5" target="13" />
     </bytecodeTargetLevel>
   </component>
 </project>
