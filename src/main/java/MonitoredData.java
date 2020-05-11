@@ -1,13 +1,8 @@
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
+
 
 public class MonitoredData {
 
@@ -30,7 +25,7 @@ public class MonitoredData {
 
     @Override
     public String toString() {
-        String out = "";
+        String out;
 
         DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
 
@@ -39,17 +34,31 @@ public class MonitoredData {
         return out;
     }
 
-    public static void main(String[] args) {
+    public Integer getStartDay() {
+        DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+        String[] date = dateFormat.format(startTime).split(" ");
+        String[] dayMonth = date[0].split("-");
 
-        List<MonitoredData> monitoredData = new ArrayList<>();
+        return 31 * Integer.parseInt(dayMonth[0]) + Integer.parseInt(dayMonth[1]);
+    }
 
-        Reading pula = new Reading("activities.txt");
-        try {
-            pula.readFile(monitoredData);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public Integer getEndDay() {
+        DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+        String[] date = dateFormat.format(endTime).split(" ");
+        String[] dayMonth = date[0].split("-");
 
-        monitoredData.forEach(data -> System.out.println(data.toString()));
+        return 31 * Integer.parseInt(dayMonth[0]) + Integer.parseInt(dayMonth[1]);
+    }
+
+    public String getActivityLabel() {
+        return activityLabel;
+    }
+
+    public Integer getDay() {
+        DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+        String[] date = dateFormat.format(startTime).split(" ");
+        String[] dayMonth = date[0].split("-");
+
+        return Integer.parseInt(dayMonth[0]);
     }
 }
