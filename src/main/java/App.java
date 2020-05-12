@@ -6,5 +6,6 @@ public class App {
         System.out.println(dataOperations.countDistinctDays());
         dataOperations.printDistinctActivities();
         dataOperations.printActivitiesPerDay();
+        dataOperations.printDurations();
     }
 }

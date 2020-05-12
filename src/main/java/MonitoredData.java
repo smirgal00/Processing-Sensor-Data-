@@ -61,4 +61,12 @@ public class MonitoredData {
 
         return Integer.parseInt(dayMonth[0]);
     }
+
+    public Date getStartTime() {
+        return startTime;
+    }
+
+    public Date getEndTime() {
+        return endTime;
+    }
 }
