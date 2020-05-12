@@ -9,10 +9,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Reading {
+public class FileOperation {
     private final String path;
 
-    public Reading(String path) {
+    public FileOperation(String path) {
         this.path = path;
     }
 

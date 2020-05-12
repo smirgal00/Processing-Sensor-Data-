@@ -7,5 +7,6 @@ public class App {
         dataOperations.printDistinctActivities();
         dataOperations.printActivitiesPerDay();
         dataOperations.printDurations();
+        dataOperations.printFilteredActivities();
     }
 }
