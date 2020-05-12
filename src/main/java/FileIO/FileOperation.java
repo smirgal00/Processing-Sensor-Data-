@@ -1,3 +1,5 @@
+package FileIO;
+
 import javax.management.monitor.MonitorSettingException;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -10,6 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import Logic.*;
 
 public class FileOperation {
     private final String path;

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PT2020_30225_Adam_George_Assignment_5:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -27,16 +32,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0958f017-c3f3-4ac1-9ea5-bc33462c7563" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activities.txt" beforeDir="false" afterPath="$PROJECT_DIR$/activities.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FileOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MonitoredData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MonitoredData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task3Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task3Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task4Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task4Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Task6Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Task6Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Logic/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DataOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Logic/DataOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FileIO/FileOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MonitoredData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Logic/MonitoredData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task3Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdas/Task3Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task4Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdas/Task4Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdas/Task5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Task6Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lambdas/Task6Util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,14 +77,14 @@
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
+      <option name="MAIN_CLASS_NAME" value="Logic.App" />
       <module name="PT2020_30225_Adam_George_Assignment_5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MonitoredData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MonitoredData" />
+      <option name="MAIN_CLASS_NAME" value="Logic.MonitoredData" />
       <module name="PT2020_30225_Adam_George_Assignment_5" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,7 +111,7 @@
       <workItem from="1589131706954" duration="7000" />
       <workItem from="1589132325441" duration="6277000" />
       <workItem from="1589222353924" duration="8666000" />
-      <workItem from="1589260283732" duration="13175000" />
+      <workItem from="1589260283732" duration="13995000" />
     </task>
     <servers />
   </component>

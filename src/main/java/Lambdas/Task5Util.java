@@ -1,5 +1,8 @@
+package Lambdas;
+
 import java.time.Duration;
 import java.util.Map;
+import Logic.MonitoredData;
 
 public interface Task5Util {
 

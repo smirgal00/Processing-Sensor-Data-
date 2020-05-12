@@ -1,3 +1,5 @@
+package Lambdas;
+
 import java.util.Map;
 
 @FunctionalInterface
