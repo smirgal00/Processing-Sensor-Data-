@@ -6,7 +6,11 @@ public interface Task6Util {
 
     AtomicInteger process(String elem);
 
-    default void printActivities(List<String> list) {
-        System.out.println(list.toString());
+    default StringBuilder printActivities(List<String> list) {
+        StringBuilder sb = new StringBuilder();
+
+        list.forEach(string -> sb.append(string).append(" ").append("\n"));
+
+        return sb;
     }
 }

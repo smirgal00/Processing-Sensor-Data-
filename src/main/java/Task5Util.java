@@ -5,10 +5,15 @@ public interface Task5Util {
 
     void add(Map<String, Duration> map, MonitoredData data);
 
-    default void printDurations(Map<String, Duration> map) {
+    default StringBuilder printDurations(Map<String, Duration> map) {
+        StringBuilder sb = new StringBuilder();
+
         map.forEach((key, value) -> {
-            System.out.println("Activity " + key + " has a total duration of " + parseDate(value.toString()));
+            sb.append("Activity ").append(key).append(" has a total duration of ").
+                    append(parseDate(value.toString())).append("\n");
         });
+
+        return sb;
     }
 
     default String parseDate(String string) {

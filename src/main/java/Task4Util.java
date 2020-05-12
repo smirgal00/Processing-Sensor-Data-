@@ -5,12 +5,15 @@ public interface Task4Util {
 
     void add(Integer day, Map<Integer, Map<String, Integer>> map);
 
-    default void print(Map<Integer, Map<String, Integer>> map) {
+    default StringBuilder print(Map<Integer, Map<String, Integer>> map) {
+        StringBuilder sb = new StringBuilder();
         map.forEach((key, value) -> {
-            System.out.println("Day " + key + ": ");
+            sb.append("Day ").append(key).append(": ").append("\n");
             value.forEach((string, nr) -> {
-                System.out.println("Activity " + string + " occurred " + nr + " times!");
+                sb.append("Activity ").append(string).append(" occurred ").append(nr).append(" times!").append("\n");
             });
         });
+
+        return sb;
     }
 }

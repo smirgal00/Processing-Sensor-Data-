@@ -1,0 +1,126 @@
+Day 1: 
+Activity Leaving	 occurred 1 times!
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 3 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 6 times!
+Activity Toileting	 occurred 2 times!
+Activity Lunch occurred 1 times!
+Day 2: 
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 4 times!
+Activity Snack	 occurred 1 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 7 times!
+Activity Toileting	 occurred 3 times!
+Activity Lunch occurred 1 times!
+Day 3: 
+Activity Leaving	 occurred 1 times!
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 3 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 4 times!
+Activity Toileting	 occurred 2 times!
+Day 4: 
+Activity Leaving	 occurred 1 times!
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 2 times!
+Activity Snack	 occurred 2 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 6 times!
+Activity Toileting	 occurred 4 times!
+Day 5: 
+Activity Leaving	 occurred 2 times!
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 6 times!
+Activity Snack	 occurred 1 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 7 times!
+Activity Toileting	 occurred 5 times!
+Activity Lunch occurred 1 times!
+Day 6: 
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 4 times!
+Activity Snack	 occurred 1 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 5 times!
+Activity Toileting	 occurred 3 times!
+Activity Lunch occurred 1 times!
+Day 7: 
+Activity Leaving	 occurred 1 times!
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 5 times!
+Activity Snack	 occurred 2 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 8 times!
+Activity Toileting	 occurred 6 times!
+Activity Lunch occurred 1 times!
+Day 8: 
+Activity Leaving	 occurred 1 times!
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 5 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 4 times!
+Activity Toileting	 occurred 1 times!
+Day 9: 
+Activity Leaving	 occurred 2 times!
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 5 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 6 times!
+Activity Toileting	 occurred 2 times!
+Day 10: 
+Activity Leaving	 occurred 2 times!
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 4 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 3 times!
+Activity Toileting	 occurred 1 times!
+Day 11: 
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 3 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 3 times!
+Activity Toileting	 occurred 2 times!
+Activity Lunch occurred 1 times!
+Day 28: 
+Activity Leaving	 occurred 1 times!
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 2 times!
+Activity Snack	 occurred 1 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 4 times!
+Activity Toileting	 occurred 3 times!
+Activity Lunch occurred 1 times!
+Day 29: 
+Activity Leaving	 occurred 1 times!
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 3 times!
+Activity Snack	 occurred 1 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 6 times!
+Activity Toileting	 occurred 4 times!
+Activity Lunch occurred 1 times!
+Day 30: 
+Activity Leaving	 occurred 1 times!
+Activity Breakfast	 occurred 1 times!
+Activity Sleeping occurred 1 times!
+Activity Grooming	 occurred 2 times!
+Activity Snack	 occurred 2 times!
+Activity Showering	 occurred 1 times!
+Activity Spare_Time/TV occurred 8 times!
+Activity Toileting	 occurred 6 times!
+Activity Lunch occurred 1 times!

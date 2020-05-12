@@ -1,5 +1,7 @@
 import javax.management.monitor.MonitorSettingException;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Array;
 import java.nio.file.Files;
@@ -24,5 +26,13 @@ public class FileOperation {
         fileText.map(line -> line.split("\t\t"))
                 .forEach(parsed -> monitoredData.add(new MonitoredData(parsed)));
 
+    }
+
+    public void writeToFile(String toWrite, String fileName) throws IOException {
+        FileWriter file = new FileWriter(fileName);
+        BufferedWriter wr = new BufferedWriter(file);
+
+        wr.write(toWrite);
+        wr.close();
     }
 }

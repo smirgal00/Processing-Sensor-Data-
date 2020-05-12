@@ -29,7 +29,7 @@ public class MonitoredData {
 
         DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
 
-        out = dateFormat.format(startTime) + " " + dateFormat.format(endTime) + " " + activityLabel;
+        out = dateFormat.format(startTime) + " " + dateFormat.format(endTime) + " " + activityLabel + "\n";
 
         return out;
     }

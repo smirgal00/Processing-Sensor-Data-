@@ -70,8 +70,10 @@ public class DataOperations {
         }
     }
 
-    public void printData() {
-        monitoredData.forEach(System.out::println);
+    public void printData() throws IOException {
+        StringBuilder sb = new StringBuilder();
+        monitoredData.forEach(sb::append);
+        fileOperation.writeToFile(sb.toString(), "Task_1.txt");
     }
 
     public Integer countDistinctDays() {
@@ -85,6 +87,10 @@ public class DataOperations {
         return days.size();
     }
 
+    public void printDistinctDays() throws IOException {
+        fileOperation.writeToFile(countDistinctDays().toString(), "Task_2.txt");
+    }
+
     private Map<String, Integer> countDistinctActivities() {
         Map<String, Integer> activities = new HashMap<>();
 
@@ -95,9 +101,9 @@ public class DataOperations {
         return activities;
     }
 
-    public void printDistinctActivities() {
+    public void printDistinctActivities() throws IOException {
         Map<String, Integer> map = countDistinctActivities();
-        map.keySet().forEach(line -> System.out.println(line + " " + map.get(line)));
+        fileOperation.writeToFile(addLambda.createString(map).toString(), "Task_3.txt");
     }
 
     private Map<Integer, Map<String, Integer>> countActivityPerDay() {
@@ -110,10 +116,10 @@ public class DataOperations {
         return map;
     }
 
-    public void printActivitiesPerDay() {
+    public void printActivitiesPerDay() throws IOException {
         Map<Integer, Map<String, Integer>> map = countActivityPerDay();
 
-        mapLambda.print(map);
+        fileOperation.writeToFile(mapLambda.print(map).toString(), "Task_4.txt");
     }
 
     private Map<String, Duration> computeDuration() {
@@ -126,8 +132,8 @@ public class DataOperations {
         return map;
     }
 
-    public void printDurations() {
-        timeLambda.printDurations(computeDuration());
+    public void printDurations() throws IOException {
+        fileOperation.writeToFile(timeLambda.printDurations(computeDuration()).toString(), "Task_5.txt");
     }
 
     private List<String> filterActivities() {
@@ -147,7 +153,7 @@ public class DataOperations {
         return names;
     }
 
-    public void printFilteredActivities() {
-        percentageLambda.printActivities(filterActivities());
+    public void printFilteredActivities() throws IOException {
+        fileOperation.writeToFile(percentageLambda.printActivities(filterActivities()).toString(), "Task_6.txt");
     }
 }
